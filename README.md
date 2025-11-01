@@ -8,16 +8,16 @@ A Neovim plugin to instantly hover and browse Rails I18n translations under your
 
 ## Features
 
-- 🔄 Parses and flattens all Rails locale YAML files in the background  
-- 🎛️ Hover with a keymap to see translations for all available languages  
-- 📄 `gf` binding to jump straight to the source YAML file for a given key  
-- ⚙️ Easy configuration of keymaps and filetypes
+- Parses and flattens all Rails locale YAML files in the background
+- Hover with a keymap to see translations for all available languages
+- `gf` binding to jump straight to the source YAML file for a given key
+- Easy configuration of keymaps and filetypes
 
 ## Prerequisites
 
-- Neovim v0.7+  
-- 'nvim-neotest/nvim-nio' plugin for async parsing 
-- Ruby 1.8+ (plugin invokes: `ruby scripts/flatten_locales.rb <project_root>`)  
+- Neovim v0.7+
+- 'nvim-neotest/nvim-nio' plugin for async parsing
+- Ruby 1.8+ (plugin invokes: `ruby scripts/flatten_locales.rb <project_root>`)
 - A `Gemfile` at your project root (otherwise the plugin will not load)
 
 ## Installation
